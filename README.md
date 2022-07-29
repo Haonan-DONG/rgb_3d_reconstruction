@@ -4,7 +4,7 @@ To help to learn the 3d reconstruction from rgb input, here I give sdk and lib t
 
 
 ## TODO
-- [ ] First version SDF for using.
+- [ ] First version Lib for using.
 
 ## Acknowledgements
 - [COLMAP](https://github.com/colmap/colmap)
