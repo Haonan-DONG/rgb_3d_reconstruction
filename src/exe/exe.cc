@@ -4,6 +4,8 @@
 #include <colmap/util/option_manager.h>
 #include <colmap/util/string.h>
 
+#include <OpenMVS/MVS.h>
+
 int main(int argc, char **argv)
 {
     colmap::InitializeGlog(argv);
