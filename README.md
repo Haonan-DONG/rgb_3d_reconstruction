@@ -18,7 +18,7 @@ To help to learn the 3d reconstruction from rgb input, here I give sdk and lib t
 - [ ] Phone Camera
 
 ## Acknowledgements
-- [COLMAP](https://github.com/colmap/colmap) Src 3.8
-- [OpenMVS](https://github.com/cdcseacave/openMVS) Src 2.0.1
+- [COLMAP-3.8](https://github.com/colmap/colmap)
+- [OpenMVS-2.0.1](https://github.com/cdcseacave/openMVS)
 - [Poisson Reconstruction](https://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version13.8/)
 - [Meshlab](https://github.com/cnr-isti-vclab/meshlab)
