@@ -1,9 +1,11 @@
 # rgb_3d_reconstruction
-To help to learn the 3d reconstruction from rgb input, this tool is developed to help you make a textured mesh from only rgb images (currently) by the traditional methods.
+## Purpose
+- A handy pipeline to make a textured mesh from rgb images (currently) by the traditional methods.
+- Reproduce the latest methods.
+
 
 ## TODO
-- [X] Unreleased Pipeline with COLMAP and OpenMVS
-- [ ] Released Pipeline for COLMAP and openMVS as a library. From rgb input into textured mesh.
+- [X] Released Pipeline for COLMAP and openMVS as a library. From rgb input into textured mesh.
 - [ ] Combine Poisson Reconstruction.
 - [ ] Add keyframe abstraction from SLAM-Based algorithm.
 - [ ] ACMM Re-coding.
