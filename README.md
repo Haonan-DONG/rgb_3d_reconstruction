@@ -4,6 +4,19 @@
 - Reproduce the latest methods.
 
 
+## Data configuration
+```
+-- test
+    -- images      --> Image and camera prior information.
+        -- 00000000.jpg
+        -- 00000001.jpg
+        ...
+        -- 00000333.jpg
+    -- sfm         --> Undistorted images, poses and optimized intrinsics.
+    -- mvs         --> Depth map and fused point cloud.
+    -- mesh        --> Textured and un-textured mesh.
+```
+
 ## TODO
 - [X] Released Pipeline for COLMAP and openMVS as a library. From rgb input into textured mesh.
 - [ ] Combine Poisson Reconstruction.
