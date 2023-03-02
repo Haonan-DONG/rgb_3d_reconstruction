@@ -1,15 +1,12 @@
-# rgb_3d_reconstruction_pipeline
-
-To help to learn the 3d reconstruction from rgb input, here I give sdk and lib to help you make a textured mesh from only rgb images from the traditional methods.
+# rgb_3d_reconstruction
+To help to learn the 3d reconstruction from rgb input, this tool is developed to help you make a textured mesh from only rgb images (currently) by the traditional methods.
 
 ## TODO
-- [X] Unreleased Pipeline with colmap and openmvs
-- [ ] Released Pipeline for Colmap and openMVS as a library.
+- [X] Unreleased Pipeline with COLMAP and OpenMVS
+- [ ] Released Pipeline for COLMAP and openMVS as a library. From rgb input into textured mesh.
 - [ ] Combine Poisson Reconstruction.
-
-## Architectures
-### Sparse Reconstruction
-
+- [ ] Add keyframe abstraction from SLAM-Based algorithm.
+- [ ] ACMM Re-coding.
 
 ## Samples
 - [X] DTU-scan1

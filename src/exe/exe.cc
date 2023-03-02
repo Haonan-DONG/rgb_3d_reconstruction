@@ -3,22 +3,13 @@
 
 #include <colmap/util/option_manager.h>
 #include <colmap/util/string.h>
-
-#include <OpenMVS/MVS.h>
+#include <colmap/exe/feature.h>
 
 int main(int argc, char **argv)
 {
-    colmap::InitializeGlog(argv);
+    // colmap::InitializeGlog(argv);
 
-    std::string input_path;
-    std::string output_path;
-
-    colmap::OptionManager options;
-    options.AddRequiredOption("input_path", &input_path);
-    options.AddRequiredOption("output_path", &output_path);
-    options.Parse(argc, argv);
-
-    std::cout << colmap::StringPrintf("Hello %s!", "COLMAP") << std::endl;
+    colmap::RunFeatureExtractor(argc, argv);
 
     return EXIT_SUCCESS;
 }
