@@ -12,7 +12,7 @@ To help to learn the 3d reconstruction from rgb input, here I give sdk and lib t
 
 
 ## Samples
-- [ ] DTU-scan1
+- [X] DTU-scan1
 - [ ] GoPro
 - [ ] Binocular Stereo
 - [ ] Phone Camera
