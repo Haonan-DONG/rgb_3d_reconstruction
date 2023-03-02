@@ -3,6 +3,11 @@
 - A handy pipeline to make a textured mesh from rgb images (currently) by the traditional methods.
 - Reproduce the latest methods.
 
+## How to use
+```shell
+# Compile COLMAP and OpenMVS in the ACKNOWLEDGE into the directory "third_party", and run the following script.
+bash rgb_reconstruction.sh $1   # $1 must be an absolute path.
+```
 
 ## Data configuration
 ```
@@ -16,18 +21,18 @@
     -- mvs         --> Depth map and fused point cloud.
     -- mesh        --> Textured and un-textured mesh.
 ```
+We provide a [sample data](https://pan.baidu.com/s/1Ekx5msUdmoQynWi4C12Fdw) in Baidu Disk from DTU datasets and the password is *uts5*.
 
 ## TODO
 - [X] Released Pipeline for COLMAP and openMVS as a library. From rgb input into textured mesh.
-- [ ] Combine Poisson Reconstruction.
 - [ ] Add keyframe abstraction from SLAM-Based algorithm.
-- [ ] ACMM Re-coding.
+- [ ] ACMM Re-producing
+- [ ] Combine Poisson Reconstruction.
 
 ## Samples
 - [X] DTU-scan1
-- [ ] GoPro
-- [ ] Binocular Stereo
-- [ ] Phone Camera
+- [ ] Scannet
+- [ ] Eth3d
 
 ## Acknowledgements
 - [COLMAP-3.8](https://github.com/colmap/colmap)
